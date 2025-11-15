@@ -1,7 +1,9 @@
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 12px;
     min-height: 100vh;
     background: #fc1e8a;
     user-select: none;
@@ -91,3 +93,45 @@ h2{
 .boxMatch::after {
     transform: rotateY(180deg);     
 } 
+
+
+.credits{
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    font-size: 0.95rem;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.credits .tech{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.credits .tech img{
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    display: block;
+}
+
+@media (max-width: 420px){
+    .credits .tech img{
+        width: 32px;
+        height: 32px;
+    }
+}
+
+.redes{
+    margin-top: 20px;
+}
