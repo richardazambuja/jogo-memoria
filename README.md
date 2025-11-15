@@ -7,7 +7,8 @@ Mini game desenvolvido por mim utilizando métodos DOM com a linguagem Javascrip
 ## 🕹️ Demonstração
 Imagem do mini game:
 
-*//COLOCAR IMAGEM//*
+<img width="1181" height="977" alt="image" src="https://github.com/user-attachments/assets/35f47690-1b7e-4e17-9dd6-f87a3102e122" />
+
 
 ## 🛠️ Tecnologias e Ferramentas
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
